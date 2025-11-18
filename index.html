@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Career Roadmap After 12th | MAAC Basheerbagh</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 24px;
+            opacity: 0.95;
+        }
+        
+        .header .subtitle {
+            font-size: 18px;
+            margin-top: 20px;
+            background: rgba(255,255,255,0.2);
+            padding: 15px 30px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+        
+        /* Stats Bar */
+        .stats-bar {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            background: #f8f9fa;
+            padding: 30px;
+            gap: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        /* Career Sections */
+        .career-section {
+            padding: 50px 40px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .career-section:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .section-icon {
+            font-size: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .section-title {
+            font-size: 36px;
+            color: #333;
+        }
+        
+        .career-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .career-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .career-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(102,126,234,0.3);
+        }
+        
+        .career-card h3 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .duration-badge {
+            background: #FFD700;
+            color: #333;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        
+        .job-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .job-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .job-item:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .salary-range {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+        }
+        
+        .salary-fresher {
+            color: #4CAF50;
+            font-weight: 600;
+        }
+        
+        .salary-experienced {
+            color: #FF6B35;
+            font-weight: 600;
+        }
+        
+        /* Salary Progression */
+        .progression-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+        }
+        
+        .progression-title {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .progression-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        
+        .progression-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        
+        .progression-level {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .progression-salary {
+            font-size: 28px;
+            font-weight: bold;
+            color: #FFD700;
+            margin-bottom: 10px;
+        }
+        
+        .progression-years {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        /* Freelance Section */
+        .freelance-section {
+            padding: 60px 40px;
+            background: #f8f9fa;
+        }
+        
+        .freelance-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .freelance-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .freelance-skill {
+            font-size: 22px;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        .freelance-earning {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .freelance-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .freelance-amount {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        /* Demand Section */
+        .demand-section {
+            padding: 60px 40px;
+            background: white;
+        }
+        
+        .demand-columns {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .demand-column {
+            padding: 30px;
+            border-radius: 15px;
+        }
+        
+        .high-demand {
+            background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+            color: white;
+        }
+        
+        .moderate-demand {
+            background: linear-gradient(135deg, #FF9800 0%, #F57C00 100%);
+            color: white;
+        }
+        
+        .emerging-demand {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+            color: white;
+        }
+        
+        .demand-column h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .demand-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .demand-list li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 16px;
+        }
+        
+        .demand-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #FF6B35 0%, #ff5722 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .cta-title {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        .cta-subtitle {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #FF6B35;
+            padding: 20px 50px;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .footer-logo {
+            font-size: 28px;
+            font-weight: bold;
+            color: #FF6B35;
+            margin-bottom: 15px;
+        }
+        
+        .footer-contact {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        
+        /* Download Button */
+        .download-section {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
+        
+        .download-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 20px rgba(76,175,80,0.4);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 32px;
+            }
+            
+            .stats-bar {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .career-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .progression-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .demand-columns {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .download-section {
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .download-section {
+                display: none;
+            }
+            
+            .career-card {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎨 Design Career Roadmap After 12th</h1>
+            <p>Your Complete Guide to Creative Careers</p>
+            <div class="subtitle">₹18,000 to ₹5,00,000+ Per Month | 50+ Career Options</div>
+        </div>
+        
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-box">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Career Options</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Major Industries</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">6-36</div>
+                <div class="stat-label">Months Training</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number">₹18K-₹5L</div>
+                <div class="stat-label">Salary Range</div>
+            </div>
+        </div>
+        
+        <!-- Animation & VFX -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🎬</div>
+                <h2 class="section-title">Animation & VFX Careers</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🎭 3D Animation</h3>
+                    <div class="duration-badge">⏱️ 18-24 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">3D Animator</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹18K-₹35K</span>
+                                <span class="salary-experienced">Exp: ₹50K-₹1.2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Character Animator</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹45K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Rigging Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹20K-₹40K</span>
+                                <span class="salary-experienced">Exp: ₹55K-₹1L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Lighting Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹42K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.2L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>✨ VFX (Visual Effects)</h3>
+                    <div class="duration-badge">⏱️ 18-30 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Compositing Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Rotoscopy Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹15K-₹28K</span>
+                                <span class="salary-experienced">Exp: ₹35K-₹60K</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">FX Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹28K-₹55K</span>
+                                <span class="salary-experienced">Exp: ₹80K-₹1.8L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Matte Painting Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹45K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.2L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Gaming Design -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🎮</div>
+                <h2 class="section-title">Gaming Design Careers</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🕹️ Game Design</h3>
+                    <div class="duration-badge">⏱️ 18-36 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Game Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹2.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Level Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹45K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Game Programmer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹30K-₹60K</span>
+                                <span class="salary-experienced">Exp: ₹80K-₹3L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">UI/UX Designer (Games)</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹1.8L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>🎨 Game Art & 3D Modeling</h3>
+                    <div class="duration-badge">⏱️ 18-24 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">3D Modeler (Games)</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹42K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.4L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Texture Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹20K-₹38K</span>
+                                <span class="salary-experienced">Exp: ₹50K-₹1L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Environment Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹24K-₹48K</span>
+                                <span class="salary-experienced">Exp: ₹65K-₹1.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Character Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹26K-₹52K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹1.6L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Graphic Design -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🎨</div>
+                <h2 class="section-title">Graphic & Digital Design</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🖌️ Graphic Design</h3>
+                    <div class="duration-badge">⏱️ 6-12 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Graphic Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹15K-₹30K</span>
+                                <span class="salary-experienced">Exp: ₹40K-₹1L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Brand Identity Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹18K-₹35K</span>
+                                <span class="salary-experienced">Exp: ₹50K-₹1.2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Packaging Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹16K-₹32K</span>
+                                <span class="salary-experienced">Exp: ₹45K-₹90K</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>💻 Web & UI/UX Design</h3>
+                    <div class="duration-badge">⏱️ 6-12 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Web Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹18K-₹35K</span>
+                                <span class="salary-experienced">Exp: ₹45K-₹1L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">UI Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹45K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">UX Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹2L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Motion Graphics -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🎥</div>
+                <h2 class="section-title">Motion Graphics & Video Editing</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🎬 Motion Graphics</h3>
+                    <div class="duration-badge">⏱️ 12-18 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Motion Graphics Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹20K-₹40K</span>
+                                <span class="salary-experienced">Exp: ₹55K-₹1.3L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Broadcast Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹22K-₹45K</span>
+                                <span class="salary-experienced">Exp: ₹60K-₹1.5L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>✂️ Video Editing</h3>
+                    <div class="duration-badge">⏱️ 6-12 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Video Editor</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹18K-₹35K</span>
+                                <span class="salary-experienced">Exp: ₹45K-₹1L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Film Editor</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Color Grading Artist</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹20K-₹40K</span>
+                                <span class="salary-experienced">Exp: ₹55K-₹1.2L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Filmmaking -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🎞️</div>
+                <h2 class="section-title">Filmmaking & Photography</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🎬 Filmmaking</h3>
+                    <div class="duration-badge">⏱️ 12-36 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Assistant Director</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹15K-₹30K</span>
+                                <span class="salary-experienced">Exp: ₹50K-₹1.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Cinematographer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹60K</span>
+                                <span class="salary-experienced">Exp: ₹1L-₹5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Director</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Starting: ₹30K-₹1L</span>
+                                <span class="salary-experienced">Exp: ₹2L-₹50L+</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>📸 Photography</h3>
+                    <div class="duration-badge">⏱️ 6-12 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">Commercial Photographer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹15K-₹35K</span>
+                                <span class="salary-experienced">Exp: ₹50K-₹2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Wedding Photographer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Per Event: ₹20K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹1L-₹5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Fashion Photographer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹60K</span>
+                                <span class="salary-experienced">Exp: ₹1L-₹5L+</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Emerging Tech -->
+        <div class="career-section">
+            <div class="section-header">
+                <div class="section-icon">🚀</div>
+                <h2 class="section-title">Emerging Tech Careers</h2>
+            </div>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>🥽 AR/VR Design</h3>
+                    <div class="duration-badge">⏱️ 18-24 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">AR/VR Developer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹30K-₹60K</span>
+                                <span class="salary-experienced">Exp: ₹80K-₹2.5L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Metaverse Designer</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹35K-₹70K</span>
+                                <span class="salary-experienced">Exp: ₹1L-₹3L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="career-card">
+                    <h3>🤖 AI-Assisted Design</h3>
+                    <div class="duration-badge">⏱️ 12-18 Months</div>
+                    <ul class="job-list">
+                        <li class="job-item">
+                            <div class="job-title">AI Art Director</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹30K-₹60K</span>
+                                <span class="salary-experienced">Exp: ₹80K-₹2L</span>
+                            </div>
+                        </li>
+                        <li class="job-item">
+                            <div class="job-title">Prompt Engineer (Design)</div>
+                            <div class="salary-range">
+                                <span class="salary-fresher">Fresher: ₹25K-₹50K</span>
+                                <span class="salary-experienced">Exp: ₹70K-₹1.8L</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Salary Progression -->
+        <div class="progression-section">
+            <h2 class="progression-title">💰 Salary Progression Timeline</h2>
+            <div class="progression-grid">
+                <div class="progression-card">
+                    <div class="progression-level">Entry Level</div>
+                    <div class="progression-salary">₹18K-₹40K</div>
+                    <div class="progression-years">0-2 Years</div>
+                </div>
+                <div class="progression-card">
+                    <div class="progression-level">Mid-Level</div>
+                    <div class="progression-salary">₹50K-₹1.2L</div>
+                    <div class="progression-years">3-5 Years</div>
+                </div>
+                <div class="progression-card">
+                    <div class="progression-level">Senior</div>
+                    <div class="progression-salary">₹1L-₹2.5L</div>
+                    <div class="progression-years">5-10 Years</div>
+                </div>
+                <div class="progression-card">
+                    <div class="progression-level">Expert</div>
+                    <div class="progression-salary">₹2.5L-₹5L+</div>
+                    <div class="progression-years">10+ Years</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Freelance Earning -->
+        <div class="freelance-section">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 20px;">💼 Freelance Earning Potential</h2>
+            <div class="freelance-grid">
+                <div class="freelance-card">
+                    <div class="freelance-skill">Logo Design</div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Starting</div>
+                        <div class="freelance-amount">₹2K-₹5K/project</div>
+                    </div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Experienced</div>
+                        <div class="freelance-amount">₹10K-₹50K/project</div>
+                    </div>
+                </div>
+                
+                <div class="freelance-card">
+                    <div class="freelance-skill">3D Animation</div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Starting</div>
+                        <div class="freelance-amount">₹5K-₹15K/project</div>
+                    </div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Experienced</div>
+                        <div class="freelance-amount">₹30K-₹1.5L/project</div>
+                    </div>
+                </div>
+                
+                <div class="freelance-card">
+                    <div class="freelance-skill">Video Editing</div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Starting</div>
+                        <div class="freelance-amount">₹3K-₹10K/project</div>
+                    </div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Experienced</div>
+                        <div class="freelance-amount">₹15K-₹80K/project</div>
+                    </div>
+                </div>
+                
+                <div class="freelance-card">
+                    <div class="freelance-skill">VFX Shots</div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Starting</div>
+                        <div class="freelance-amount">₹8K-₹25K/project</div>
+                    </div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Experienced</div>
+                        <div class="freelance-amount">₹40K-₹2L/project</div>
+                    </div>
+                </div>
+                
+                <div class="freelance-card">
+                    <div class="freelance-skill">Game Assets</div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Starting</div>
+                        <div class="freelance-amount">₹5K-₹20K/project</div>
+                    </div>
+                    <div class="freelance-earning">
+                        <div class="freelance-label">Experienced</div>
+                        <div class="freelance-amount">₹25K-₹1L/project</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Industry Demand -->
+        <div class="demand-section">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 20px;">📊 Industry Growth & Demand (2025-2030)</h2>
+            <div class="demand-columns">
+                <div class="demand-column high-demand">
+                    <h3>🔥 High Demand</h3>
+                    <ul class="demand-list">
+                        <li>VFX Artists</li>
+                        <li>Game Designers</li>
+                        <li>UI/UX Designers</li>
+                        <li>Motion Graphics</li>
+                        <li>AR/VR Developers</li>
+                    </ul>
+                </div>
+                
+                <div class="demand-column moderate-demand">
+                    <h3>⚡ Moderate Demand</h3>
+                    <ul class="demand-list">
+                        <li>3D Animators</li>
+                        <li>Video Editors</li>
+                        <li>Graphic Designers</li>
+                        <li>Photographers</li>
+                    </ul>
+                </div>
+                
+                <div class="demand-column emerging-demand">
+                    <h3>🚀 Emerging</h3>
+                    <ul class="demand-list">
+                        <li>AI-Assisted Design</li>
+                        <li>NFT Artists</li>
+                        <li>Virtual Production</li>
+                        <li>Metaverse Creators</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <h2 class="cta-title">Ready to Start Your Design Career?</h2>
+            <p class="cta-subtitle">Get personalized career counselling + course details + scholarship info</p>
+            <a href="https://aankeshprasad555-afk.github.io/maac-lead-gen-landing/#form" class="cta-button">Book FREE Counselling Session →</a>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-logo">MAAC Basheerbagh</div>
+            <div class="footer-contact">📞 +91 9182998498 | 📧 basheerbagh@maacmail.com</div>
+            <div class="footer-contact">📍 6th Floor, Mahaveer Chambers, Basheer Bagh, Hyderabad 500029</div>
+            <div class="footer-contact" style="margin-top: 20px; opacity: 0.8;">India's #1 Animation & VFX Institute | 500+ Students Placed</div>
+        </div>
+    </div>
+    
+    <!-- Download Button -->
+    <div class="download-section">
+        <a href="#" class="download-btn" onclick="window.print(); return false;">
+            📥 Download PDF
+        </a>
+    </div>
+    
+    <script>
+        // Smooth scroll for CTA
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+        
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.career-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
